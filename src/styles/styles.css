@@ -1,0 +1,12 @@
+/* style="max-width: 540px;" */
+
+.App {
+    height: 100vh;
+    overflow: auto;
+    background-image: url('https://wallpapercave.com/wp/wp1822784.png');
+}
+
+.gr-circle {
+    height: 9px;
+    width: 9px;
+}
