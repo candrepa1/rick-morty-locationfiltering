@@ -5,7 +5,8 @@ import ResidentContainer from './ResidentContainer';
 
 const LocationInfo = (props) => {
     const info = props.location;
-    const list = info.map((item) => <><li><b>Name:</b> {item.name}</li><li><b>Type:</b> {item.type}</li><li><b>Dimension:</b> {item.dimension}</li><li><b>Number of Residents:</b> {item.residents.length}</li></>);
+    console.log(info);
+    const list = info.map((item) => <><li key="0"><b>Name:</b> {item.name}</li><li key="1"><b>Type:</b> {item.type}</li><li key="2"><b>Dimension:</b> {item.dimension}</li><li key="3"><b>Number of Residents:</b> {item.residents.length}</li></>);
 
     return(
         <>
